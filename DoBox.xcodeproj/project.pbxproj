@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3401CE243DD09D0077C74A /* KKManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3401CD243DD09D0077C74A /* KKManger.swift */; };
+		0A3401D1243EB2690077C74A /* KKTrackInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3401D0243EB2690077C74A /* KKTrackInfoViewModel.swift */; };
+		0A3401D3243EB3320077C74A /* KKTrackInfoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3401D2243EB3320077C74A /* KKTrackInfoDataSource.swift */; };
+		0A3401D5243EB36F0077C74A /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3401D4243EB36F0077C74A /* DynamicValue.swift */; };
+		0A3401D8243ED1C10077C74A /* PlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3401D7243ED1C10077C74A /* PlayerListCell.swift */; };
+		0A3401DD2440368B0077C74A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3401DC2440368B0077C74A /* Extension.swift */; };
+		0ACACD75243D613800328FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD74243D613800328FC5 /* AppDelegate.swift */; };
+		0ACACD77243D613800328FC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD76243D613800328FC5 /* SceneDelegate.swift */; };
+		0ACACD79243D613800328FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD78243D613800328FC5 /* ViewController.swift */; };
+		0ACACD7C243D613800328FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACACD7A243D613800328FC5 /* Main.storyboard */; };
+		0ACACD7F243D613800328FC5 /* DoBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD7D243D613800328FC5 /* DoBox.xcdatamodeld */; };
+		0ACACD81243D615400328FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACACD80243D615400328FC5 /* Assets.xcassets */; };
+		0ACACD84243D615400328FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACACD82243D615400328FC5 /* LaunchScreen.storyboard */; };
+		0ACACD8C243D626100328FC5 /* serverApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD8B243D626100328FC5 /* serverApi.swift */; };
+		0ACACD8F243D6FCD00328FC5 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD8E243D6FCD00328FC5 /* EndpointType.swift */; };
+		0ACACD94243D704700328FC5 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD91243D704700328FC5 /* ParameterEncoding.swift */; };
+		0ACACD95243D704700328FC5 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD92243D704700328FC5 /* URLParameterEncoding.swift */; };
+		0ACACD96243D704700328FC5 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD93243D704700328FC5 /* JSONParameterEncoder.swift */; };
+		0ACACD98243D732500328FC5 /* NetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD97243D732500328FC5 /* NetRouter.swift */; };
+		0ACACD9A243D948200328FC5 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD99243D948200328FC5 /* NetworkLogger.swift */; };
+		0ACACD9D243D967F00328FC5 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD9C243D967F00328FC5 /* NetworkManger.swift */; };
+		0ACACDA0243D97E900328FC5 /* DoBoxEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACD9F243D97E900328FC5 /* DoBoxEndPoint.swift */; };
+		9F6960F5A9AC8CF0DA838DEB /* Pods_DoBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2550F5D23CAD69F8DEFB56AF /* Pods_DoBox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027003F3B4F6ABC595D6003C /* Pods-DoBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoBox.release.xcconfig"; path = "Target Support Files/Pods-DoBox/Pods-DoBox.release.xcconfig"; sourceTree = "<group>"; };
+		0A3401CD243DD09D0077C74A /* KKManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKManger.swift; sourceTree = "<group>"; };
+		0A3401D0243EB2690077C74A /* KKTrackInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKTrackInfoViewModel.swift; sourceTree = "<group>"; };
+		0A3401D2243EB3320077C74A /* KKTrackInfoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKTrackInfoDataSource.swift; sourceTree = "<group>"; };
+		0A3401D4243EB36F0077C74A /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		0A3401D7243ED1C10077C74A /* PlayerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListCell.swift; sourceTree = "<group>"; };
+		0A3401DC2440368B0077C74A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0ACACD71243D613800328FC5 /* DoBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACACD74243D613800328FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ACACD76243D613800328FC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0ACACD78243D613800328FC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0ACACD7B243D613800328FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ACACD7E243D613800328FC5 /* DoBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoBox.xcdatamodel; sourceTree = "<group>"; };
+		0ACACD80243D615400328FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ACACD83243D615400328FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ACACD85243D615400328FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACACD8B243D626100328FC5 /* serverApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serverApi.swift; sourceTree = "<group>"; };
+		0ACACD8E243D6FCD00328FC5 /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		0ACACD91243D704700328FC5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		0ACACD92243D704700328FC5 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		0ACACD93243D704700328FC5 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		0ACACD97243D732500328FC5 /* NetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRouter.swift; sourceTree = "<group>"; };
+		0ACACD99243D948200328FC5 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		0ACACD9C243D967F00328FC5 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		0ACACD9F243D97E900328FC5 /* DoBoxEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoBoxEndPoint.swift; sourceTree = "<group>"; };
+		2550F5D23CAD69F8DEFB56AF /* Pods_DoBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D151C27A4EFE8E46912A0F /* Pods-DoBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoBox.debug.xcconfig"; path = "Target Support Files/Pods-DoBox/Pods-DoBox.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ACACD6E243D613800328FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6960F5A9AC8CF0DA838DEB /* Pods_DoBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3401CF243EB23A0077C74A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A3401D9244035540077C74A /* KKTrackInfo */,
+				0A3401D4243EB36F0077C74A /* DynamicValue.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A3401D6243ED1A40077C74A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A3401D7243ED1C10077C74A /* PlayerListCell.swift */,
+				0ACACD78243D613800328FC5 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3401D9244035540077C74A /* KKTrackInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0A3401D0243EB2690077C74A /* KKTrackInfoViewModel.swift */,
+				0A3401D2243EB3320077C74A /* KKTrackInfoDataSource.swift */,
+			);
+			path = KKTrackInfo;
+			sourceTree = "<group>";
+		};
+		0A3401DA244036380077C74A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACD74243D613800328FC5 /* AppDelegate.swift */,
+				0ACACD76243D613800328FC5 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0A3401DB244036620077C74A /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				0A3401DC2440368B0077C74A /* Extension.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		0ACACD68243D613800328FC5 = {
+			isa = PBXGroup;
+			children = (
+				0ACACD73243D613800328FC5 /* DoBox */,
+				0ACACD72243D613800328FC5 /* Products */,
+				12A83C1263C12EDF5120487A /* Pods */,
+				4863DF584D6204DB66373261 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0ACACD72243D613800328FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACD71243D613800328FC5 /* DoBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ACACD73243D613800328FC5 /* DoBox */ = {
+			isa = PBXGroup;
+			children = (
+				0A3401DA244036380077C74A /* AppDelegate */,
+				0A3401D6243ED1A40077C74A /* View */,
+				0A3401CF243EB23A0077C74A /* ViewModel */,
+				0ACACD9E243D97CD00328FC5 /* EndPoint */,
+				0ACACD9B243D963D00328FC5 /* Manger */,
+				0ACACD90243D704700328FC5 /* Encoding */,
+				0ACACD8D243D626600328FC5 /* Serivce */,
+				0A3401DB244036620077C74A /* Extenstion */,
+				0ACACD7A243D613800328FC5 /* Main.storyboard */,
+				0ACACD80243D615400328FC5 /* Assets.xcassets */,
+				0ACACD82243D615400328FC5 /* LaunchScreen.storyboard */,
+				0ACACD85243D615400328FC5 /* Info.plist */,
+				0ACACD7D243D613800328FC5 /* DoBox.xcdatamodeld */,
+			);
+			path = DoBox;
+			sourceTree = "<group>";
+		};
+		0ACACD8D243D626600328FC5 /* Serivce */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACD8B243D626100328FC5 /* serverApi.swift */,
+				0ACACD8E243D6FCD00328FC5 /* EndpointType.swift */,
+				0ACACD97243D732500328FC5 /* NetRouter.swift */,
+				0ACACD99243D948200328FC5 /* NetworkLogger.swift */,
+			);
+			path = Serivce;
+			sourceTree = "<group>";
+		};
+		0ACACD90243D704700328FC5 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACD91243D704700328FC5 /* ParameterEncoding.swift */,
+				0ACACD92243D704700328FC5 /* URLParameterEncoding.swift */,
+				0ACACD93243D704700328FC5 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		0ACACD9B243D963D00328FC5 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACD9C243D967F00328FC5 /* NetworkManger.swift */,
+				0A3401CD243DD09D0077C74A /* KKManger.swift */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		0ACACD9E243D97CD00328FC5 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACD9F243D97E900328FC5 /* DoBoxEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		12A83C1263C12EDF5120487A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D151C27A4EFE8E46912A0F /* Pods-DoBox.debug.xcconfig */,
+				027003F3B4F6ABC595D6003C /* Pods-DoBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4863DF584D6204DB66373261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2550F5D23CAD69F8DEFB56AF /* Pods_DoBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ACACD70243D613800328FC5 /* DoBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACACD88243D615400328FC5 /* Build configuration list for PBXNativeTarget "DoBox" */;
+			buildPhases = (
+				669527C51C4A357DBDB0CB03 /* [CP] Check Pods Manifest.lock */,
+				0ACACD6D243D613800328FC5 /* Sources */,
+				0ACACD6E243D613800328FC5 /* Frameworks */,
+				0ACACD6F243D613800328FC5 /* Resources */,
+				974189660B4132F0375A147F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoBox;
+			productName = DoBox;
+			productReference = 0ACACD71243D613800328FC5 /* DoBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ACACD69243D613800328FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "FULL ENTERPRISE CORP";
+				TargetAttributes = {
+					0ACACD70243D613800328FC5 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 0ACACD6C243D613800328FC5 /* Build configuration list for PBXProject "DoBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ACACD68243D613800328FC5;
+			packageReferences = (
+				0ADD6DD1243DA470007CF1B5 /* XCRemoteSwiftPackageReference "OpenAPI-Swift-Promises" */,
+			);
+			productRefGroup = 0ACACD72243D613800328FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ACACD70243D613800328FC5 /* DoBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ACACD6F243D613800328FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACACD84243D615400328FC5 /* LaunchScreen.storyboard in Resources */,
+				0ACACD81243D615400328FC5 /* Assets.xcassets in Resources */,
+				0ACACD7C243D613800328FC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		669527C51C4A357DBDB0CB03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974189660B4132F0375A147F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoBox/Pods-DoBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoBox/Pods-DoBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoBox/Pods-DoBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ACACD6D243D613800328FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACACD98243D732500328FC5 /* NetRouter.swift in Sources */,
+				0ACACD95243D704700328FC5 /* URLParameterEncoding.swift in Sources */,
+				0ACACD94243D704700328FC5 /* ParameterEncoding.swift in Sources */,
+				0A3401CE243DD09D0077C74A /* KKManger.swift in Sources */,
+				0ACACD79243D613800328FC5 /* ViewController.swift in Sources */,
+				0ACACD8C243D626100328FC5 /* serverApi.swift in Sources */,
+				0A3401D8243ED1C10077C74A /* PlayerListCell.swift in Sources */,
+				0A3401D1243EB2690077C74A /* KKTrackInfoViewModel.swift in Sources */,
+				0ACACD8F243D6FCD00328FC5 /* EndpointType.swift in Sources */,
+				0A3401D3243EB3320077C74A /* KKTrackInfoDataSource.swift in Sources */,
+				0ACACD9D243D967F00328FC5 /* NetworkManger.swift in Sources */,
+				0A3401D5243EB36F0077C74A /* DynamicValue.swift in Sources */,
+				0ACACD96243D704700328FC5 /* JSONParameterEncoder.swift in Sources */,
+				0A3401DD2440368B0077C74A /* Extension.swift in Sources */,
+				0ACACD75243D613800328FC5 /* AppDelegate.swift in Sources */,
+				0ACACDA0243D97E900328FC5 /* DoBoxEndPoint.swift in Sources */,
+				0ACACD7F243D613800328FC5 /* DoBox.xcdatamodeld in Sources */,
+				0ACACD77243D613800328FC5 /* SceneDelegate.swift in Sources */,
+				0ACACD9A243D948200328FC5 /* NetworkLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0ACACD7A243D613800328FC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACACD7B243D613800328FC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ACACD82243D615400328FC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACACD83243D615400328FC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ACACD86243D615400328FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ACACD87243D615400328FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ACACD89243D615400328FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D151C27A4EFE8E46912A0F /* Pods-DoBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM82HP4LUE;
+				INFOPLIST_FILE = DoBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullcorp.DoBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ACACD8A243D615400328FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027003F3B4F6ABC595D6003C /* Pods-DoBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM82HP4LUE;
+				INFOPLIST_FILE = DoBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullcorp.DoBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ACACD6C243D613800328FC5 /* Build configuration list for PBXProject "DoBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACACD86243D615400328FC5 /* Debug */,
+				0ACACD87243D615400328FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACACD88243D615400328FC5 /* Build configuration list for PBXNativeTarget "DoBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACACD89243D615400328FC5 /* Debug */,
+				0ACACD8A243D615400328FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0ADD6DD1243DA470007CF1B5 /* XCRemoteSwiftPackageReference "OpenAPI-Swift-Promises" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KKBOX/OpenAPI-Swift-Promises.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCVersionGroup section */
+		0ACACD7D243D613800328FC5 /* DoBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0ACACD7E243D613800328FC5 /* DoBox.xcdatamodel */,
+			);
+			currentVersion = 0ACACD7E243D613800328FC5 /* DoBox.xcdatamodel */;
+			path = DoBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0ACACD69243D613800328FC5 /* Project object */;
+}
