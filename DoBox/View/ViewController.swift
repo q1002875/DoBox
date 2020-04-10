@@ -10,7 +10,7 @@ import UIKit
 import KKBOXOpenAPISwift
 
 
-class ViewController: UIViewController,UITableViewDelegate {
+class ViewController: UIViewController {
 
     
  let dataSource = KKInfoDataSource()
@@ -26,13 +26,14 @@ class ViewController: UIViewController,UITableViewDelegate {
           table.register(PlayListCell.self, forCellReuseIdentifier: "cell")
           table.dataSource = dataSource
           table.delegate = self
-        table.backgroundColor = .systemGray
+        table.backgroundColor = .systemGray4
           return table
       }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         KKManger.loginKK()
+        
         self.view.addSubview(tableview)
         //綁定監聽收到資料reload data
         self.dataSource.data.addAndNotify(self) { [weak self] _ in
@@ -45,13 +46,17 @@ class ViewController: UIViewController,UITableViewDelegate {
             
     }
 
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
-    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let url = self.dataSource.data.value[indexPath.row].url
-        UIApplication.shared.open(url!)
-    }
+  
 }
 
 
+
+extension ViewController:UITableViewDelegate{
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+          return 80
+      }
+      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+          let url = self.dataSource.data.value[indexPath.row].url
+          UIApplication.shared.open(url!)
+      }
+}

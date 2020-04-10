@@ -27,14 +27,13 @@ class KKInfoDataSource:GenericDataSource<KKPlaylistInfo>,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
         return data.value.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PlayListCell
         
-        cell.Label.text = "\(data.value[indexPath.row].title)"
+        cell.Label.text = "\(data.value[indexPath.row].playlistDescription)"
         cell.KKImageView.kf.setImage(with:self.data.value[indexPath.row].images[0].url!)
         return cell
     }
